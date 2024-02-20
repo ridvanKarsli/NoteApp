@@ -14,6 +14,7 @@
 		75AEB7372B67CA9500BA99E3 /* notesWithPhotoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75AEB7352B67CA9500BA99E3 /* notesWithPhotoApp.xcdatamodeld */; };
 		75AEB7392B67CA9A00BA99E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AEB7382B67CA9A00BA99E3 /* Assets.xcassets */; };
 		75AEB73C2B67CA9A00BA99E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75AEB73A2B67CA9A00BA99E3 /* LaunchScreen.storyboard */; };
+		75AEB7442B67CBDD00BA99E3 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AEB7432B67CBDD00BA99E3 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		75AEB7382B67CA9A00BA99E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75AEB73B2B67CA9A00BA99E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75AEB73D2B67CA9A00BA99E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75AEB7432B67CBDD00BA99E3 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				75AEB72C2B67CA9500BA99E3 /* AppDelegate.swift */,
 				75AEB72E2B67CA9500BA99E3 /* SceneDelegate.swift */,
 				75AEB7302B67CA9500BA99E3 /* ViewController.swift */,
+				75AEB7432B67CBDD00BA99E3 /* DetailVC.swift */,
 				75AEB7322B67CA9500BA99E3 /* Main.storyboard */,
 				75AEB7382B67CA9A00BA99E3 /* Assets.xcassets */,
 				75AEB73A2B67CA9A00BA99E3 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75AEB7442B67CBDD00BA99E3 /* DetailVC.swift in Sources */,
 				75AEB7312B67CA9500BA99E3 /* ViewController.swift in Sources */,
 				75AEB72D2B67CA9500BA99E3 /* AppDelegate.swift in Sources */,
 				75AEB7372B67CA9500BA99E3 /* notesWithPhotoApp.xcdatamodeld in Sources */,
